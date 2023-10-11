@@ -114,14 +114,14 @@ $app->route('default', function () {
             <h1>Default Page</h1>
             
             <form action="?action=submission-callback" method="post">
-                <div>
+                <div class="mb-3">
                     <label for="name" class="form-label">
                         Name
                     </label>
                     <input type="text" name="name" id="name" class="form-control" required />
                 </div>
                 
-                <button type="submit">
+                <button type="submit" class="btn btn-primary">
                     Submit    
                 </button>
             </form>
@@ -152,7 +152,7 @@ HTML;
 });
 ```
 
-### Require Authentication
+### Enable Authentication
 
 You can easily protect the script with the built-in HTTP Basic Authentication. 
 
