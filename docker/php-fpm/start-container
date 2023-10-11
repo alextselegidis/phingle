@@ -1,0 +1,7 @@
+#!/bin/bash
+
+echo "➜ Ignore Permission Changes"
+git config core.fileMode false
+
+echo "➜ Listen To Incoming Requests"
+php-fpm
