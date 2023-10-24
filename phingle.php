@@ -167,7 +167,7 @@ class Phingle {
 
 		$requestUri = dirname($_SERVER['SCRIPT_NAME']);
 
-		return $protocol . $domain . $requestUri . '/' . $segment;
+		return rtrim($protocol . $domain . $requestUri, '/') . '/' . $segment;
 	}
 
 	/**
