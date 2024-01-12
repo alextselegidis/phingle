@@ -46,23 +46,7 @@ functionality.
 
 ```php
 $app->route('default', function () {
-	$content = <<<HTML
-        <div class="p-5 mb-4 bg-light rounded-3">
-            <div class="container-fluid py-5">
-                <h1 class="display-5 fw-bold">Welcome!</h1>
-                
-                <p class="col-md-8 fs-4">
-                    Using this single file template you can create your own scripts for any use case.     
-                </p>
-                
-                <a href="https://github.com/alextselegidis/phingle" class="btn btn-primary btn-lg">
-                    Find out more
-                </a>
-            </div>
-        </div>
-HTML;
-
-	$this->render($content);
+	$this->render('<h1>Hello World!</h1>');
 });
 ```
 
