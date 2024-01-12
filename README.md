@@ -46,7 +46,7 @@ functionality.
 
 ```php
 $app->route('default', function () {
-	$this->render('<h1>Hello World!</h1>');
+	$this->render('<h1>Hello World</h1>');
 });
 ```
 
@@ -99,9 +99,7 @@ $app->route('default', function () {
             
             <form action="?action=submission-callback" method="post">
                 <div class="mb-3">
-                    <label for="name" class="form-label">
-                        Name
-                    </label>
+                    <label for="name" class="form-label">Name</label>
                     <input type="text" name="name" id="name" class="form-control" required />
                 </div>
                 
