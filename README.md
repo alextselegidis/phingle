@@ -21,6 +21,8 @@
   <a href="#license">License</a>
 </p>
 
+![screenshot](phingle-snippet.png)
+
 ## About
 
 **Phingle** is a simple yet practical single file app template file, that will allow to quickly implement utility 
